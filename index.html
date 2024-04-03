@@ -3,54 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Survey Form</title>
+    <title>JavaScript Basics Tutorial</title>
     <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+	body {
+    font-family: sans-serif;
+    background-color: white;
+            border: 2px solid black;
+            border-radius: 4px;
+            padding: 7px;
+            width: 40%;
+            margin: 10px 20px 10px 500px;
+           
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 10px;
+    
+    max-width: 960px;
+}
+ .main1{
+   background-color :rgba(248, 165, 11, 0.922);
+}
+
+.nav {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin-bottom: 10px;
+}
+
+.nav a {
+    text-decoration: dotted;
+    color : black;
+}
+    </style>	
 </head>
 <body>
-    <h2>Product Survey Form</h2>
-    <table>
-        <tr>
-            <th></th>
-            <th>5</th>
-            <th>4</th>
-            <th>3</th>
-            <th>2</th>
-            <th>1</th>
-        </tr>
-        <tr>
-            <td>Purchase</td>
-            <td>*</td>
-            <td>*</td>
-            <td>*</td>
-            <td>*</td>
-            <td>*</td>
-        </tr>
-        <tr>
-            <td>Service</td>
-            <td>*</td>
-            <td>*</td>
-            <td>*</td>
-            <td>*</td>
-            <td>*</td>
-        </tr>
-        <tr>
-            <td>Company Overall</td>
-            <td>*</td>
-            <td>*</td>
-            <td>*</td>
-            <td>*</td>
-            <td>*</td>
-        </tr>
-    </table>
+    <div class="container">
+        
+        <nav class="nav">
+            <ul>
+		 <li>
+                     <div><span class = "main1"><a href="#">JavaScript Basics Tutorial</a></span></div></li>
+            </ul>
+
+              <ul>	
+                <li><a href="#">JavaScript-Home</a></li>
+                <li><a href="#">JavaScript-Overview</a></li>
+                <li><a href="#">JavaScript-Syntax</a></li>
+                
+                <li><a href="#">JavaScript-Enabling Technologies</a></li>
+                <li><a href="#">JavaScript-Placement</a></li>
+                <li><a href="#">JavaScript-Variables</a></li>
+                <li><a href="#">JavaScript-Operators</a></li>
+                <li><a href="#">JavaScript-If...Else</a></li>
+                <li><a href="#">JavaScript-Switch Case</a></li>
+                <li><a href="#">JavaScript-While Loop</a></li>
+                <li><a href="#">JavaScript-For Loop</a></li>
+                <li><a href="#">JavaScript-For...in</a></li>
+                <li><a href="#">JavaScript-Loop Control</a></li>
+                <li><a href="#">JavaScript-Functions</a></li>
+                <li><a href="#">JavaScript-Events</a></li>
+                <li><a href="#">JavaScript-Cookies</a></li>
+                <li><a href="#">JavaScript-Page Redirect</a></li>
+                <li><a href="#">JavaScript-Dialog Boxes</a></li>
+                <li><a href="#">JavaScript-Void Keyword</a></li>
+                <li><a href="#">JavaScript-Page Printing</a></li>
+		
+            </ul>
+        </nav>
+        <main class="main">
+            <section class="content">
+	<p><b>JavaScript</b> is a lightweight, interpreted <b>programing</b> language.It is designed for creating network centric applications. It is complimentary to and integrated with Java.<b>JavaScript</b> is very easy to implement because it is integrated with HTML. It is open and cross-platform.</p>
+                <h2>Why Learn JavaScript</h2>
+                <p>JavaScript is a MUST for students and working professionals to become a great Software Engineer especially when they are working in Web Development Domain. I will list down some of the key advantages of learning JavaScript:</p>
+                <ul>
+                    <li>JavaScript is everywhere, it comes installed on every modern web browser and so to learn JavaScript you really do not need any special environment setup. For example Chrome, Mozilla Firefox, Safari and every browser you know as of today, supports JavaScript.</li><br>
+                    <li>JavaScript helps you create really beautiful and crazy fast websites. You can develop your website with a console like look and feel and give your users the best Graphical User Experience.</li><br>
+                    <li>JavaScript usage has now extended to mobile app development, desktop app development, and game development. This opens many opportunities for you as a JavaScript Programmer.</li><br>
+                    <li>Due to high demand, there is tons of job growth and high pay for those who know JavaScript. You can navigate over to different job sites to see what having JavaScript skills looks like in the job market.</li><br>
+                    <li>Great thing about JavaScript is that you will find tons of frameworks and Libraries already developed which can be used directly in your software development to reduce your time to market your product.</li>
+                </ul>
+            </section>
+        </main>
+	
+    </div>
 </body>
 </html>
